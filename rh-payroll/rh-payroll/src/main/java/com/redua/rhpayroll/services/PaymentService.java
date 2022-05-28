@@ -13,7 +13,7 @@ import java.util.Map;
 @Service
 public class PaymentService {
 
-    @Value("S{hr-worker.host}")
+    @Value("${hr-worker.host}")
     private String workerHost;
 
     @Autowired
